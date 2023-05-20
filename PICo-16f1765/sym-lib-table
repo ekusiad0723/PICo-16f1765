@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PICo-16f1765)(type Legacy)(uri ${KIPRJMOD}/PICo-16f1765.lib)(options "")(descr ""))
+)
