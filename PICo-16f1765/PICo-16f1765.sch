@@ -929,80 +929,50 @@ Wire Wire Line
 Wire Wire Line
 	1600 1800 2750 1800
 Connection ~ 1100 1900
-$Comp
-L Connector:Conn_01x02_Female J5
-U 1 1 6498876E
-P 9800 3600
-F 0 "J5" H 9828 3576 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 9828 3485 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 3600 50  0001 C CNN
-F 3 "~" H 9800 3600 50  0001 C CNN
-	1    9800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR029
-U 1 1 6498A146
-P 9450 3600
-F 0 "#PWR029" H 9450 3450 50  0001 C CNN
-F 1 "VCC" H 9465 3773 50  0000 C CNN
-F 2 "" H 9450 3600 50  0001 C CNN
-F 3 "" H 9450 3600 50  0001 C CNN
-	1    9450 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 6498E6EF
-P 9450 3700
-F 0 "#PWR030" H 9450 3450 50  0001 C CNN
-F 1 "GND" H 9455 3527 50  0000 C CNN
-F 2 "" H 9450 3700 50  0001 C CNN
-F 3 "" H 9450 3700 50  0001 C CNN
-	1    9450 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 3600 9600 3600
-Wire Wire Line
-	9450 3700 9600 3700
-$Comp
-L Connector:Conn_01x02_Female J6
-U 1 1 649983E7
-P 9800 4300
-F 0 "J6" H 9828 4276 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 9828 4185 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 4300 50  0001 C CNN
-F 3 "~" H 9800 4300 50  0001 C CNN
-	1    9800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR031
-U 1 1 649983ED
-P 9450 4300
-F 0 "#PWR031" H 9450 4150 50  0001 C CNN
-F 1 "VCC" H 9465 4473 50  0000 C CNN
-F 2 "" H 9450 4300 50  0001 C CNN
-F 3 "" H 9450 4300 50  0001 C CNN
-	1    9450 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 649983F3
-P 9450 4400
-F 0 "#PWR032" H 9450 4150 50  0001 C CNN
-F 1 "GND" H 9455 4227 50  0000 C CNN
-F 2 "" H 9450 4400 50  0001 C CNN
-F 3 "" H 9450 4400 50  0001 C CNN
-	1    9450 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 4300 9600 4300
-Wire Wire Line
-	9450 4400 9600 4400
 Text Label 8900 1650 0    50   ~ 0
 Vin
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 648B4BDB
+P 10250 5150
+F 0 "H3" H 10350 5196 50  0000 L CNN
+F 1 "MountingHole" H 10350 5105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10250 5150 50  0001 C CNN
+F 3 "~" H 10250 5150 50  0001 C CNN
+	1    10250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 648BD151
+P 9450 5150
+F 0 "H1" H 9550 5196 50  0000 L CNN
+F 1 "MountingHole" H 9550 5105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9450 5150 50  0001 C CNN
+F 3 "~" H 9450 5150 50  0001 C CNN
+	1    9450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 648C1391
+P 10250 5450
+F 0 "H4" H 10350 5496 50  0000 L CNN
+F 1 "MountingHole" H 10350 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10250 5450 50  0001 C CNN
+F 3 "~" H 10250 5450 50  0001 C CNN
+	1    10250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 648C549C
+P 9450 5450
+F 0 "H2" H 9550 5496 50  0000 L CNN
+F 1 "MountingHole" H 9550 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9450 5450 50  0001 C CNN
+F 3 "~" H 9450 5450 50  0001 C CNN
+	1    9450 5450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
