@@ -1,3 +1,6 @@
 (sym_lib_table
-  (lib (name PICo-16f1765)(type Legacy)(uri ${KIPRJMOD}/PICo-16f1765.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "PICo-16f1765")(type "Legacy")(uri "${KIPRJMOD}/PICo-16f1765.lib")(options "")(descr ""))
+  (lib (name "ch340k")(type "KiCad")(uri "D:/temp/ch340k.kicad_sym")(options "")(descr ""))
+  (lib (name "PICo-16f1765-rescue")(type "KiCad")(uri "${KIPRJMOD}/PICo-16f1765-rescue.kicad_sym")(options "")(descr ""))
 )
